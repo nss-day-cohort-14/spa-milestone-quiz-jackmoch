@@ -10,3 +10,14 @@
 .button {
   margin-left: 10px;
 }
+
+.smallDiv {
+  text-align: center;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+
+.descriptionPara {
+  width: 60%;
+  margin-left: 20%;
+}

@@ -24,13 +24,32 @@ function populatePage(inventory) {
     var purchasePara = document.createElement('p');
     var descriptionPara = document.createElement('p');
 
-    makePara.innerText = currentMake;
-    modelPara.innerText = currentModel;
-    yearPara.innerText = currentYear;
-    pricePara.innerText = currentPrice;
-    colorPara.innerText = currentColor;
-    purchasePara.innerText = currentPurchase;
-    descriptionPara.innerText = currentDescription;
+    smallDiv.id = `smallDiv${i}`;
+    smallDiv.style.border = `10px ridge ${currentColor}`
+    makePara.id = `makePara${i}`;
+    modelPara.id = `modelPara${i}`;
+    yearPara.id = `yearPara${i}`;
+    pricePara.id = `pricePara${i}`;
+    colorPara.id = `colorPara${i}`;
+    purchasePara.id = `purchasePara${i}`;
+    descriptionPara.id = `descriptionPara${i}`;
+
+    smallDiv.classList.add('smallDiv');
+    makePara.classList.add('makePara');
+    modelPara.classList.add('modelPara');
+    yearPara.classList.add('yearPara');
+    pricePara.classList.add('pricePara');
+    colorPara.classList.add('colorPara');
+    purchasePara.classList.add('purchasePara');
+    descriptionPara.classList.add('descriptionPara');
+
+    makePara.innerText = "Make: " + currentMake;
+    modelPara.innerText = "Model: " + currentModel;
+    yearPara.innerText = "Year: " + currentYear;
+    pricePara.innerText = "Price: " + currentPrice;
+    colorPara.innerText = "Color: " + currentColor;
+    purchasePara.innerText = "Purchased: " + currentPurchase;
+    descriptionPara.innerText = "Description: " + currentDescription;
 
     smallDiv.classList.add('col-md-4');
     mainDiv.appendChild(smallDiv);

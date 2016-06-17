@@ -5,7 +5,42 @@ function populatePage(inventory) {
   mainDiv.classList.add('row');
   outputEl.appendChild(mainDiv);
   // Loop over the inventory and populate the page
+  // var keys = [];
+  // for (key in inventory[0]) {
+  //   keys.push(key)
+  // }
+
+  // keys.forEach(grabKey);
+
+
+  // function grabKey(element, index, array) {
+  //   var lowerKey = array[index];
+  //   toTitleCase(lowerKey)
+  //   var upperKey;
+
+
+  //   function toTitleCase(str) {
+  //     return str.replace(/\w\S*/g, function(txt) {
+  //       upperKey = txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  //     });
+  //   }
+  //   makeCurrent(lowerKey, upperKey)
+  // }
+
+
+  // function makeCurrent(lowerkey, upperkey) {
+
+  //   for (var i = 0; i < inventory.length; i++) {
+  //     var currentCar = inventory[i];
+
+  //     var x = {};
+  //     x[`current${upperkey}`] = currentCar[`${lowerkey}`];
+  //     console.log("x object", x);
+  //   }
+  // }
+
   for (var i = 0; i < inventory.length; i++) {
+
     var currentCar = inventory[i];
     var currentMake = currentCar.make;
     var currentModel = currentCar.model;
@@ -33,6 +68,7 @@ function populatePage(inventory) {
     colorPara.id = `colorPara${i}`;
     purchasePara.id = `purchasePara${i}`;
     descriptionPara.id = `descriptionPara${i}`;
+
 
     smallDiv.classList.add('smallDiv');
     makePara.classList.add('makePara');
@@ -62,11 +98,10 @@ function populatePage(inventory) {
     smallDiv.appendChild(descriptionPara);
 
   }
-  console.log("", outputEl);
 
 
   // Now that the DOM is loaded, establish all the event listeners needed
-  // CarLot.activateEvents();
+  CarLot.activateEvents();
 }
 
 // Load the inventory and send a callback function to be

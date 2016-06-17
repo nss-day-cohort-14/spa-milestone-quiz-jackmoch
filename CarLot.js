@@ -16,7 +16,7 @@ var CarLot = (function(originalCarLot) {
 
     });
 
-    inventoryLoader.addEventListener(`error`, () => {
+    inventoryLoader.addEventListener(`error`, function() {
       console.log(`An error occurred while transferring the messageData`);
     });
 

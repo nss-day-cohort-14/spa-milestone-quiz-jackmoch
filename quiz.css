@@ -15,6 +15,7 @@
   text-align: center;
   margin: 10px 0;
   padding-top: 10px;
+  border: 10px ridge;
 }
 
 .descriptionPara {
@@ -22,7 +23,7 @@
   margin-left: 20%;
 }
 
-.changeStyle {
-  border: 20px;
-  background: red;
+.clicked {
+  border-width: 20px;
+  background: lightgrey;
 }

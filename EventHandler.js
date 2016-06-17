@@ -5,7 +5,7 @@ var CarLot = (function(originalCarLot) {
     var smallDiv = document.getElementsByClassName('smallDiv');
     for (var i = 0; i < smallDiv.length; i++) {
       var currentDiv = smallDiv[i];
-      currentDiv.addEventListener('click', CarLot.changeStyle)
+      currentDiv.addEventListener('click', CarLot.changeStyle);
     }
   };
 

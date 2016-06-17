@@ -60,7 +60,7 @@ function populatePage(inventory) {
     var descriptionPara = document.createElement('p');
 
     smallDiv.id = `smallDiv${i}`;
-    smallDiv.style.border = `10px ridge ${currentColor}`
+    smallDiv.style.borderColor = `${currentColor}`
     makePara.id = `makePara${i}`;
     modelPara.id = `modelPara${i}`;
     yearPara.id = `yearPara${i}`;
@@ -98,10 +98,11 @@ function populatePage(inventory) {
     smallDiv.appendChild(descriptionPara);
 
   }
+  CarLot.activateEvents();
 
+  // CarLot.setColor(inventory);
 
   // Now that the DOM is loaded, establish all the event listeners needed
-  CarLot.activateEvents();
 }
 
 // Load the inventory and send a callback function to be

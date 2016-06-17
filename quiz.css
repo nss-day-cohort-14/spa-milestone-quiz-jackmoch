@@ -16,6 +16,7 @@
   margin: 10px 0;
   padding-top: 10px;
   border: 10px ridge;
+  min-height: 350px;
 }
 
 .descriptionPara {
@@ -25,5 +26,4 @@
 
 .clicked {
   border-width: 20px;
-  background: lightgrey;
 }

@@ -1,4 +1,5 @@
 var outputEl = document.getElementById('output');
+var inputEl = document.getElementById('inputTxt');
 
 function populatePage(inventory) {
   var mainDiv = document.createElement('div');

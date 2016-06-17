@@ -25,5 +25,6 @@ var CarLot = (function(originalCarLot) {
 
   };
 
-  return originalCarLot
+  return originalCarLot;
+
 })(CarLot || {});

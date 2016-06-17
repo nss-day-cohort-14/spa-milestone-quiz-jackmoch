@@ -98,9 +98,8 @@ function populatePage(inventory) {
     smallDiv.appendChild(descriptionPara);
 
   }
-  CarLot.activateEvents();
 
-  // CarLot.setColor(inventory);
+  CarLot.activateEvents();
 
   // Now that the DOM is loaded, establish all the event listeners needed
 }

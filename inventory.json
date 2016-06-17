@@ -1,0 +1,31 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": "2008",
+      "price": "5999",
+      "color": "LightCoral",
+      "purchased": false,
+      "description": "Description description description description description description description description description."
+    },
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "year": "2009",
+      "price": "7999",
+      "color": "Navy",
+      "purchased": true,
+      "description": "Description description description description description description description description description."
+    }
+  ]
+}

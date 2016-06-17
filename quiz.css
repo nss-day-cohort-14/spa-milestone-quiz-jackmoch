@@ -1,0 +1,12 @@
+.fullWidth {
+  width: 100%;
+}
+
+.navBar {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.button {
+  margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+.fullWidth {
+  width: 100%;
+}
+
+.navBar {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+.smallDiv {
+  text-align: center;
+  margin: 10px 0;
+  padding-top: 10px;
+  border: 10px ridge;
+  min-height: 350px;
+}
+
+.descriptionPara {
+  width: 80%;
+  margin-left: 10%;
+  overflow: scroll;
+}
+
+.clicked {
+  border-width: 20px;
+}

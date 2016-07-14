@@ -42,7 +42,6 @@ var CarLot = (function(originalCarLot) {
     }
 
     inputEl.addEventListener('keyup', function() {
-      console.log("", upperDescription);
       currentDescription.innerText = upperDescription + ": " + inputEl.value;
     })
   };
